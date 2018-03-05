@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/root/ros/ros_test/devel -DCMAKE_INSTALL_PREFIX=/root/ros/ros_test/install -G Unix Makefiles
