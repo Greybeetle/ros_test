@@ -1,0 +1,8 @@
+prefix=/home/hosea/vscode workspace/ros/ros_test/install
+
+Name: cha2_tutorials
+Description: Description of cha2_tutorials
+Version: 0.0.0
+Cflags: -I/home/hosea/vscode workspace/ros/ros_test/install/include
+Libs: -L/home/hosea/vscode workspace/ros/ros_test/install/lib 
+Requires: message_runtime

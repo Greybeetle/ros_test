@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /root/ros/ros_test/install/setup.sh
+    local-name: /home/hosea/vscode workspace/ros/ros_test/install/setup.sh

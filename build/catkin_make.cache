@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/root/ros/ros_test/devel -DCMAKE_INSTALL_PREFIX=/root/ros/ros_test/install -G Unix Makefiles
+cha2_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/hosea/vscode workspace/ros/ros_test/devel -DCMAKE_INSTALL_PREFIX=/home/hosea/vscode workspace/ros/ros_test/install -G Unix Makefiles

@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/root/ros/ros_test/devel:$CMAKE_PREFIX_PATH"
-export PWD="/root/ros/ros_test/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/root/ros/ros_test/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/root/ros/ros_test/src:$ROS_PACKAGE_PATH"
+export PYTHONPATH="/home/hosea/vscode workspace/ros/ros_test/devel/lib/python2.7/dist-packages:$PYTHONPATH"
