@@ -1,2 +1,2 @@
-cha2_tutorials
+cha2_tutorials:cha4_tutorials/robot1_description
 -DCATKIN_DEVEL_PREFIX=/home/hosea/vscode workspace/ros/ros_test/devel -DCMAKE_INSTALL_PREFIX=/home/hosea/vscode workspace/ros/ros_test/install -G Unix Makefiles

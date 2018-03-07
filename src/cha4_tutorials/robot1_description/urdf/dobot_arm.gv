@@ -1,0 +1,17 @@
+digraph G {
+node [shape=box];
+"base_link" [label="base_link"];
+"shoulder_link" [label="shoulder_link"];
+"bigarm_link" [label="bigarm_link"];
+"forearm_link" [label="forearm_link"];
+"chuck_link" [label="chuck_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"base_link" -> "shoulder_joint" [label="xyz: 0 0 0.055 \nrpy: 0 -0 0"]
+"shoulder_joint" -> "shoulder_link"
+"shoulder_link" -> "bigarm_joint" [label="xyz: 0 0 0.085 \nrpy: 0 -0 0"]
+"bigarm_joint" -> "bigarm_link"
+"bigarm_link" -> "forearm_joint" [label="xyz: 0 0 0.135 \nrpy: 0 -0 0"]
+"forearm_joint" -> "forearm_link"
+"forearm_link" -> "chuck_joint" [label="xyz: 0 0 0.147 \nrpy: 0 -0 0"]
+"chuck_joint" -> "chuck_link"
+}

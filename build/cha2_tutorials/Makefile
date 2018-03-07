@@ -166,6 +166,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+cha2_tutorials/CMakeFiles/example3_b.dir/rule:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example3_b.dir/rule
+.PHONY : cha2_tutorials/CMakeFiles/example3_b.dir/rule
+
+# Convenience name for target.
+example3_b: cha2_tutorials/CMakeFiles/example3_b.dir/rule
+
+.PHONY : example3_b
+
+# fast build rule for target.
+example3_b/fast:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/build
+.PHONY : example3_b/fast
+
+# Convenience name for target.
+cha2_tutorials/CMakeFiles/example3_a.dir/rule:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example3_a.dir/rule
+.PHONY : cha2_tutorials/CMakeFiles/example3_a.dir/rule
+
+# Convenience name for target.
+example3_a: cha2_tutorials/CMakeFiles/example3_a.dir/rule
+
+.PHONY : example3_a
+
+# fast build rule for target.
+example3_a/fast:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/build
+.PHONY : example3_a/fast
+
+# Convenience name for target.
+cha2_tutorials/CMakeFiles/example2_b.dir/rule:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example2_b.dir/rule
+.PHONY : cha2_tutorials/CMakeFiles/example2_b.dir/rule
+
+# Convenience name for target.
+example2_b: cha2_tutorials/CMakeFiles/example2_b.dir/rule
+
+.PHONY : example2_b
+
+# fast build rule for target.
+example2_b/fast:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/build
+.PHONY : example2_b/fast
+
+# Convenience name for target.
 cha2_tutorials/CMakeFiles/example1_b.dir/rule:
 	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example1_b.dir/rule
 .PHONY : cha2_tutorials/CMakeFiles/example1_b.dir/rule
@@ -374,6 +419,21 @@ std_msgs_generate_messages_cpp: cha2_tutorials/CMakeFiles/std_msgs_generate_mess
 std_msgs_generate_messages_cpp/fast:
 	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+cha2_tutorials/CMakeFiles/example2_a.dir/rule:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example2_a.dir/rule
+.PHONY : cha2_tutorials/CMakeFiles/example2_a.dir/rule
+
+# Convenience name for target.
+example2_a: cha2_tutorials/CMakeFiles/example2_a.dir/rule
+
+.PHONY : example2_a
+
+# fast build rule for target.
+example2_a/fast:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/build
+.PHONY : example2_a/fast
 
 # Convenience name for target.
 cha2_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
@@ -669,6 +729,114 @@ src/example1_b.cpp.s:
 	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example1_b.dir/build.make cha2_tutorials/CMakeFiles/example1_b.dir/src/example1_b.cpp.s
 .PHONY : src/example1_b.cpp.s
 
+src/example2_a.o: src/example2_a.cpp.o
+
+.PHONY : src/example2_a.o
+
+# target to build an object file
+src/example2_a.cpp.o:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/src/example2_a.cpp.o
+.PHONY : src/example2_a.cpp.o
+
+src/example2_a.i: src/example2_a.cpp.i
+
+.PHONY : src/example2_a.i
+
+# target to preprocess a source file
+src/example2_a.cpp.i:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/src/example2_a.cpp.i
+.PHONY : src/example2_a.cpp.i
+
+src/example2_a.s: src/example2_a.cpp.s
+
+.PHONY : src/example2_a.s
+
+# target to generate assembly for a file
+src/example2_a.cpp.s:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/src/example2_a.cpp.s
+.PHONY : src/example2_a.cpp.s
+
+src/example2_b.o: src/example2_b.cpp.o
+
+.PHONY : src/example2_b.o
+
+# target to build an object file
+src/example2_b.cpp.o:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/src/example2_b.cpp.o
+.PHONY : src/example2_b.cpp.o
+
+src/example2_b.i: src/example2_b.cpp.i
+
+.PHONY : src/example2_b.i
+
+# target to preprocess a source file
+src/example2_b.cpp.i:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/src/example2_b.cpp.i
+.PHONY : src/example2_b.cpp.i
+
+src/example2_b.s: src/example2_b.cpp.s
+
+.PHONY : src/example2_b.s
+
+# target to generate assembly for a file
+src/example2_b.cpp.s:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/src/example2_b.cpp.s
+.PHONY : src/example2_b.cpp.s
+
+src/example3_a.o: src/example3_a.cpp.o
+
+.PHONY : src/example3_a.o
+
+# target to build an object file
+src/example3_a.cpp.o:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/src/example3_a.cpp.o
+.PHONY : src/example3_a.cpp.o
+
+src/example3_a.i: src/example3_a.cpp.i
+
+.PHONY : src/example3_a.i
+
+# target to preprocess a source file
+src/example3_a.cpp.i:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/src/example3_a.cpp.i
+.PHONY : src/example3_a.cpp.i
+
+src/example3_a.s: src/example3_a.cpp.s
+
+.PHONY : src/example3_a.s
+
+# target to generate assembly for a file
+src/example3_a.cpp.s:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/src/example3_a.cpp.s
+.PHONY : src/example3_a.cpp.s
+
+src/example3_b.o: src/example3_b.cpp.o
+
+.PHONY : src/example3_b.o
+
+# target to build an object file
+src/example3_b.cpp.o:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/src/example3_b.cpp.o
+.PHONY : src/example3_b.cpp.o
+
+src/example3_b.i: src/example3_b.cpp.i
+
+.PHONY : src/example3_b.i
+
+# target to preprocess a source file
+src/example3_b.cpp.i:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/src/example3_b.cpp.i
+.PHONY : src/example3_b.cpp.i
+
+src/example3_b.s: src/example3_b.cpp.s
+
+.PHONY : src/example3_b.s
+
+# target to generate assembly for a file
+src/example3_b.cpp.s:
+	cd "/home/hosea/vscode workspace/ros/ros_test/build" && $(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/src/example3_b.cpp.s
+.PHONY : src/example3_b.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -680,6 +848,9 @@ help:
 	@echo "... test"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... example3_b"
+	@echo "... example3_a"
+	@echo "... example2_b"
 	@echo "... example1_b"
 	@echo "... example1_a"
 	@echo "... cha2_tutorials_genpy"
@@ -696,6 +867,7 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... example2_a"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
@@ -718,6 +890,18 @@ help:
 	@echo "... src/example1_b.o"
 	@echo "... src/example1_b.i"
 	@echo "... src/example1_b.s"
+	@echo "... src/example2_a.o"
+	@echo "... src/example2_a.i"
+	@echo "... src/example2_a.s"
+	@echo "... src/example2_b.o"
+	@echo "... src/example2_b.i"
+	@echo "... src/example2_b.s"
+	@echo "... src/example3_a.o"
+	@echo "... src/example3_a.i"
+	@echo "... src/example3_a.s"
+	@echo "... src/example3_b.o"
+	@echo "... src/example3_b.i"
+	@echo "... src/example3_b.s"
 .PHONY : help
 
 

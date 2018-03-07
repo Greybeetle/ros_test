@@ -245,7 +245,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=18,19 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=26,27 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +277,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=20,21 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=28,29 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -306,13 +306,20 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory cha2_tutorials
 
 # Convenience name for "all" pass in the directory.
+cha2_tutorials/all: cha2_tutorials/CMakeFiles/example3_b.dir/all
+cha2_tutorials/all: cha2_tutorials/CMakeFiles/example3_a.dir/all
+cha2_tutorials/all: cha2_tutorials/CMakeFiles/example2_b.dir/all
 cha2_tutorials/all: cha2_tutorials/CMakeFiles/example1_b.dir/all
 cha2_tutorials/all: cha2_tutorials/CMakeFiles/example1_a.dir/all
+cha2_tutorials/all: cha2_tutorials/CMakeFiles/example2_a.dir/all
 cha2_tutorials/all: cha2_tutorials/CMakeFiles/cha2_tutorials_generate_messages.dir/all
 
 .PHONY : cha2_tutorials/all
 
 # Convenience name for "clean" pass in the directory.
+cha2_tutorials/clean: cha2_tutorials/CMakeFiles/example3_b.dir/clean
+cha2_tutorials/clean: cha2_tutorials/CMakeFiles/example3_a.dir/clean
+cha2_tutorials/clean: cha2_tutorials/CMakeFiles/example2_b.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/example1_b.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/example1_a.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/cha2_tutorials_genpy.dir/clean
@@ -327,6 +334,7 @@ cha2_tutorials/clean: cha2_tutorials/CMakeFiles/cha2_tutorials_generate_messages
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+cha2_tutorials/clean: cha2_tutorials/CMakeFiles/example2_a.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 cha2_tutorials/clean: cha2_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
@@ -350,6 +358,117 @@ cha2_tutorials/clean: cha2_tutorials/CMakeFiles/cha2_tutorials_gencpp.dir/clean
 cha2_tutorials/preinstall:
 
 .PHONY : cha2_tutorials/preinstall
+
+#=============================================================================
+# Target rules for target cha2_tutorials/CMakeFiles/example3_b.dir
+
+# All Build rule for target.
+cha2_tutorials/CMakeFiles/example3_b.dir/all: cha2_tutorials/CMakeFiles/cha2_tutorials_generate_messages_cpp.dir/all
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/depend
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=24,25 "Built target example3_b"
+.PHONY : cha2_tutorials/CMakeFiles/example3_b.dir/all
+
+# Include target in all.
+all: cha2_tutorials/CMakeFiles/example3_b.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cha2_tutorials/CMakeFiles/example3_b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 4
+	$(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example3_b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 0
+.PHONY : cha2_tutorials/CMakeFiles/example3_b.dir/rule
+
+# Convenience name for target.
+example3_b: cha2_tutorials/CMakeFiles/example3_b.dir/rule
+
+.PHONY : example3_b
+
+# clean rule for target.
+cha2_tutorials/CMakeFiles/example3_b.dir/clean:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/clean
+.PHONY : cha2_tutorials/CMakeFiles/example3_b.dir/clean
+
+# clean rule for target.
+clean: cha2_tutorials/CMakeFiles/example3_b.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target cha2_tutorials/CMakeFiles/example3_a.dir
+
+# All Build rule for target.
+cha2_tutorials/CMakeFiles/example3_a.dir/all: cha2_tutorials/CMakeFiles/cha2_tutorials_generate_messages_cpp.dir/all
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/depend
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=22,23 "Built target example3_a"
+.PHONY : cha2_tutorials/CMakeFiles/example3_a.dir/all
+
+# Include target in all.
+all: cha2_tutorials/CMakeFiles/example3_a.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cha2_tutorials/CMakeFiles/example3_a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 4
+	$(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example3_a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 0
+.PHONY : cha2_tutorials/CMakeFiles/example3_a.dir/rule
+
+# Convenience name for target.
+example3_a: cha2_tutorials/CMakeFiles/example3_a.dir/rule
+
+.PHONY : example3_a
+
+# clean rule for target.
+cha2_tutorials/CMakeFiles/example3_a.dir/clean:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/clean
+.PHONY : cha2_tutorials/CMakeFiles/example3_a.dir/clean
+
+# clean rule for target.
+clean: cha2_tutorials/CMakeFiles/example3_a.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target cha2_tutorials/CMakeFiles/example2_b.dir
+
+# All Build rule for target.
+cha2_tutorials/CMakeFiles/example2_b.dir/all: cha2_tutorials/CMakeFiles/cha2_tutorials_generate_messages_cpp.dir/all
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/depend
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=20,21 "Built target example2_b"
+.PHONY : cha2_tutorials/CMakeFiles/example2_b.dir/all
+
+# Include target in all.
+all: cha2_tutorials/CMakeFiles/example2_b.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cha2_tutorials/CMakeFiles/example2_b.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 4
+	$(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example2_b.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 0
+.PHONY : cha2_tutorials/CMakeFiles/example2_b.dir/rule
+
+# Convenience name for target.
+example2_b: cha2_tutorials/CMakeFiles/example2_b.dir/rule
+
+.PHONY : example2_b
+
+# clean rule for target.
+cha2_tutorials/CMakeFiles/example2_b.dir/clean:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/clean
+.PHONY : cha2_tutorials/CMakeFiles/example2_b.dir/clean
+
+# clean rule for target.
+clean: cha2_tutorials/CMakeFiles/example2_b.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target cha2_tutorials/CMakeFiles/example1_b.dir
@@ -810,6 +929,43 @@ cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target cha2_tutorials/CMakeFiles/example2_a.dir
+
+# All Build rule for target.
+cha2_tutorials/CMakeFiles/example2_a.dir/all: cha2_tutorials/CMakeFiles/cha2_tutorials_generate_messages_cpp.dir/all
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/depend
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" --progress-num=18,19 "Built target example2_a"
+.PHONY : cha2_tutorials/CMakeFiles/example2_a.dir/all
+
+# Include target in all.
+all: cha2_tutorials/CMakeFiles/example2_a.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+cha2_tutorials/CMakeFiles/example2_a.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 4
+	$(MAKE) -f CMakeFiles/Makefile2 cha2_tutorials/CMakeFiles/example2_a.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hosea/vscode workspace/ros/ros_test/build/CMakeFiles" 0
+.PHONY : cha2_tutorials/CMakeFiles/example2_a.dir/rule
+
+# Convenience name for target.
+example2_a: cha2_tutorials/CMakeFiles/example2_a.dir/rule
+
+.PHONY : example2_a
+
+# clean rule for target.
+cha2_tutorials/CMakeFiles/example2_a.dir/clean:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/clean
+.PHONY : cha2_tutorials/CMakeFiles/example2_a.dir/clean
+
+# clean rule for target.
+clean: cha2_tutorials/CMakeFiles/example2_a.dir/clean
 
 .PHONY : clean
 
@@ -1339,6 +1495,24 @@ cha2_tutorials/CMakeFiles/cha2_tutorials_gencpp.dir/clean:
 clean: cha2_tutorials/CMakeFiles/cha2_tutorials_gencpp.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory cha4_tutorials/robot1_description
+
+# Convenience name for "all" pass in the directory.
+cha4_tutorials/robot1_description/all:
+
+.PHONY : cha4_tutorials/robot1_description/all
+
+# Convenience name for "clean" pass in the directory.
+cha4_tutorials/robot1_description/clean:
+
+.PHONY : cha4_tutorials/robot1_description/clean
+
+# Convenience name for "preinstall" pass in the directory.
+cha4_tutorials/robot1_description/preinstall:
+
+.PHONY : cha4_tutorials/robot1_description/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

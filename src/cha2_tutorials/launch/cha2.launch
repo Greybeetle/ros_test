@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <!--
+    <node name="example1_a" pkg="cha2_tutorials" type="example1_a"/>
+    <node name="example1_b" pkg="cha2_tutorials" type="example1_b"/>
+    -->
+    <node name="example3_a" pkg="cha2_tutorials" type="example3_a"/>
+    <node name="example3_b" pkg="cha2_tutorials" type="example3_b"/>
+</launch>

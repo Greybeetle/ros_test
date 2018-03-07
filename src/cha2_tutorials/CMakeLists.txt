@@ -131,6 +131,13 @@ include
 add_executable(example1_a src/example1_a.cpp)
 add_executable(example1_b src/example1_b.cpp)
 
+add_executable(example2_a src/example2_a.cpp)
+add_executable(example2_b src/example2_b.cpp)
+
+add_executable(example3_a src/example3_a.cpp)
+add_executable(example3_b src/example3_b.cpp)
+
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -142,9 +149,21 @@ add_executable(example1_b src/example1_b.cpp)
 add_dependencies(example1_a cha2_tutorials_generate_messages_cpp)
 add_dependencies(example1_b cha2_tutorials_generate_messages_cpp)
 
+add_dependencies(example2_a cha2_tutorials_generate_messages_cpp)
+add_dependencies(example2_b cha2_tutorials_generate_messages_cpp)
+
+add_dependencies(example3_a cha2_tutorials_generate_messages_cpp)
+add_dependencies(example3_b cha2_tutorials_generate_messages_cpp)
+
 ## Specify libraries to link a library or executable target against
 target_link_libraries(example1_a ${catkin_LIBRARIES})
 target_link_libraries(example1_b ${catkin_LIBRARIES})
+
+target_link_libraries(example2_a ${catkin_LIBRARIES})
+target_link_libraries(example2_b ${catkin_LIBRARIES})
+
+target_link_libraries(example3_a ${catkin_LIBRARIES})
+target_link_libraries(example3_b ${catkin_LIBRARIES})
 
 #############
 ## Install ##

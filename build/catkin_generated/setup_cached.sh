@@ -7,4 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export PYTHONPATH="/home/hosea/vscode workspace/ros/ros_test/devel/lib/python2.7/dist-packages:$PYTHONPATH"

@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/hosea/vscode workspace/ros/ros_test/build/gtest/cmake_install.cmake")
   include("/home/hosea/vscode workspace/ros/ros_test/build/cha2_tutorials/cmake_install.cmake")
+  include("/home/hosea/vscode workspace/ros/ros_test/build/cha4_tutorials/robot1_description/cmake_install.cmake")
 
 endif()
 

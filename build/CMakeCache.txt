@@ -255,6 +255,12 @@ cha2_tutorials_BINARY_DIR:STATIC=/home/hosea/vscode workspace/ros/ros_test/build
 //Value Computed by CMake
 cha2_tutorials_SOURCE_DIR:STATIC=/home/hosea/vscode workspace/ros/ros_test/src/cha2_tutorials
 
+//Value Computed by CMake
+cha4_tutorials_BINARY_DIR:STATIC=/home/hosea/vscode workspace/ros/ros_test/build/cha4_tutorials/cha4_1
+
+//Value Computed by CMake
+cha4_tutorials_SOURCE_DIR:STATIC=/home/hosea/vscode workspace/ros/ros_test/src/cha4_tutorials/cha4_1
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 
@@ -310,6 +316,12 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 
+//Value Computed by CMake
+robot1_description_BINARY_DIR:STATIC=/home/hosea/vscode workspace/ros/ros_test/build/cha4_tutorials/robot1_description
+
+//Value Computed by CMake
+robot1_description_SOURCE_DIR:STATIC=/home/hosea/vscode workspace/ros/ros_test/src/cha4_tutorials/robot1_description
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 
@@ -327,6 +339,9 @@ rosgraph_msgs_DIR:PATH=/opt/ros/kinetic/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
+
+//The directory containing a CMake configuration file for std_msg.
+std_msg_DIR:PATH=std_msg_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
@@ -436,7 +451,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

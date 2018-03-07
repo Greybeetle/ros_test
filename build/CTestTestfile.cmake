@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(cha2_tutorials)
+subdirs(cha4_tutorials/robot1_description)

@@ -257,6 +257,45 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named example3_b
+
+# Build rule for target.
+example3_b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_b
+.PHONY : example3_b
+
+# fast build rule for target.
+example3_b/fast:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_b.dir/build.make cha2_tutorials/CMakeFiles/example3_b.dir/build
+.PHONY : example3_b/fast
+
+#=============================================================================
+# Target rules for targets named example3_a
+
+# Build rule for target.
+example3_a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_a
+.PHONY : example3_a
+
+# fast build rule for target.
+example3_a/fast:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example3_a.dir/build.make cha2_tutorials/CMakeFiles/example3_a.dir/build
+.PHONY : example3_a/fast
+
+#=============================================================================
+# Target rules for targets named example2_b
+
+# Build rule for target.
+example2_b: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example2_b
+.PHONY : example2_b
+
+# fast build rule for target.
+example2_b/fast:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_b.dir/build.make cha2_tutorials/CMakeFiles/example2_b.dir/build
+.PHONY : example2_b/fast
+
+#=============================================================================
 # Target rules for targets named example1_b
 
 # Build rule for target.
@@ -437,6 +476,19 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 std_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make cha2_tutorials/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named example2_a
+
+# Build rule for target.
+example2_a: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example2_a
+.PHONY : example2_a
+
+# fast build rule for target.
+example2_a/fast:
+	$(MAKE) -f cha2_tutorials/CMakeFiles/example2_a.dir/build.make cha2_tutorials/CMakeFiles/example2_a.dir/build
+.PHONY : example2_a/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
@@ -666,6 +718,9 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... example3_b"
+	@echo "... example3_a"
+	@echo "... example2_b"
 	@echo "... example1_b"
 	@echo "... example1_a"
 	@echo "... cha2_tutorials_genpy"
@@ -680,6 +735,7 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... example2_a"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
